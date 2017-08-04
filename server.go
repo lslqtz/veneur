@@ -48,7 +48,7 @@ const REDACTED = "REDACTED"
 
 var profileStartOnce = sync.Once{}
 
-var log = logrus.New()
+var log = logrus.StandardLogger()
 
 var tracer = trace.GlobalTracer
 
